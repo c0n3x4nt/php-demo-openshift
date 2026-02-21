@@ -1,5 +1,5 @@
 # Použij MW base image s Apache
-FROM v4mp1r3/apache-php-base:latest
+FROM php:8.2-apache 
 
 # Zkopírovat kód aplikace
 COPY . /var/www/html/
